@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(243,243,243);
+    color: rgba(0,0,0,1);
+}
+
+div#interface {
+    position: relative;
+    width:900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    font-family: verdana;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+header#cabecalho img#icone {
+    position: relative;
+    left: 0px;
+    top: 0px
+}
+
+header#cabecalho {
+    border-bottom: 1px black solid;
+    
+}
+
+/*Menu*/
+
+nav {
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    top: -10px;
+    left: 420px
+}
+
+nav li {
+    display: inline-block;
+    background-color: rgb(238,238,238);
+    padding:10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav li#i:hover {
+    background-color: rgba(0,0,0,0.6);
+}
+
+nav li#whats:hover {
+    background-color: rgb(89,211,102);
+}
+
+nav li#gmail:hover {
+    background-color: rgb(230,47,43);
+}
+
+nav li#insta:hover {
+    background-color: rgb(213,26,109);
+}
+
+nav li#tt:hover {
+    background-color: rgb(27,163,241);
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav a {
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+nav#botoes ul {
+    list-style: none;
+    position: relative;
+    left: 250px;
+}
+
+/*Logotipos na Página Inicial*/
+
+/* Whatsapp */
+
+figure.whats {
+    position:relative;
+    border: 0px solid white;
+    width:70px;
+    height: 70px;
+    left: 265px;
+    bottom: 5px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+figure.whats img#whats {
+   position: absolute;
+   left: 0px
+}
+
+figure.whats figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width:100%;
+    height:100%;
+    padding: 1px;
+    box-sizing:border-box;
+    transition: opacity 0.5s;
+    font-size: 14px;  
+} 
+
+figure.whats:hover figcaption {
+    opacity: 1;
+}
+
+/* Gmail*/
+
+figure.gmail {
+    position:relative;
+    border: 0px solid white;
+    width:72px;
+    height: 72px;
+    left: 357px;
+    bottom: 92px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+figure.gmail img#gmail {
+   position: absolute;
+   left: 6px;
+   bottom:12px
+}
+
+figure.gmail figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width:100%;
+    height:100%;
+    padding: 1px;
+    box-sizing:border-box;
+    transition: opacity 0.5s;
+    font-size: 14px;  
+} 
+
+figure.gmail:hover figcaption {
+    opacity: 1;
+}
+
+/* Instagram*/
+
+figure.insta {
+    position:absolute;
+    border: 0px solid white;
+    width:72px;
+    height: 72px;
+    left: 464px;
+    bottom: 102px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+figure.insta img#insta {
+   position: absolute;
+   left: 6px;
+   bottom:6px
+}
+
+figure.insta figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width:100%;
+    height:100%;
+    padding: 1px;
+    box-sizing:border-box;
+    transition: opacity 0.5s;
+    font-size: 14px;  
+} 
+
+figure.insta:hover figcaption {
+    opacity: 1;
+}
+
+/*Twitter*/
+
+figure.twitter {
+    position:absolute;
+    border: 0px solid white;
+    width:72px;
+    height: 72px;
+    left: 560px;
+    bottom: 102px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+figure.twitter img#twitter {
+   position: absolute;
+   left: 6px;
+   bottom:6px
+}
+
+figure.twitter figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width:100%;
+    height:100%;
+    padding: 1px;
+    box-sizing:border-box;
+    transition: opacity 0.5s;
+    font-size: 14px;  
+} 
+
+figure.twitter:hover figcaption {
+    opacity: 1;
+}
