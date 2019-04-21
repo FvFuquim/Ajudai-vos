@@ -1,2 +1,152 @@
 @charset "UTF-8";
 
+body#whats {
+    background-color:rgb(166,253,151);
+    color: rgba(0,0,0,1);
+}
+
+body#gmail {
+    background-color:rgb(254,155,150);
+    color: rgba(0,0,0,1);
+}
+
+body#insta {
+    background-color:rgb(244,166,201);
+    color: rgba(0,0,0,1);
+}
+
+body#twitter{
+    background-color:rgb(179,223,253);
+    color: rgba(0,0,0,1);
+}
+
+div#interface {
+    position: relative;
+    width:900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    font-family: verdana;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+header#cabecalho img#iconeW {
+    position: absolute;
+    left: 210px;
+    top: 15px
+}
+
+header#cabecalho img#iconeG {
+    position: absolute;
+    left: 130px;
+    top: 25px
+}
+
+header#cabecalho img#iconeI {
+    position: absolute;
+    left: 210px;
+    top: 25px
+}
+
+header#cabecalho img#iconeT {
+    position: absolute;
+    left: 160px;
+    top: 25px
+}
+
+header#cabecalho {
+    border-bottom: 1px black solid;
+    
+}
+
+/*Menu*/
+
+nav {
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    top: -10px;
+    left: 420px
+}
+
+nav li {
+    display: inline-block;
+    background-color: rgb(238,238,238);
+    padding:10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav li#i:hover {
+    background-color: rgba(0,0,0,0.6);
+}
+
+nav li#whats:hover {
+    background-color: rgb(89,211,102);
+}
+
+nav li#gmail:hover {
+    background-color: rgb(230,47,43);
+}
+
+nav li#insta:hover {
+    background-color: rgb(213,26,109);
+}
+
+nav li#tt:hover {
+    background-color: rgb(27,163,241);
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav a {
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+nav#botoes ul {
+    list-style: none;
+    position: relative;
+    left: 250px;
+}
+
+/* Whats Imagens */
+
+figure.whats {
+    position: relative;
+    border: 4px solid white;
+    box-shadow: 1px 1px 4px black;
+    width:300px;
+    left:260px;
+}
+
+figure.whats figcaption {
+    opacity:0;
+    position: absolute;
+    top:0px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing:border-box;
+    transition: opacity 0.5s;
+}
+
+figure.whats:hover figcaption {
+    opacity: 1;
+}
